@@ -15,6 +15,9 @@
 		29436C0C2804815E00C95E55 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 29436C0A2804815E00C95E55 /* LaunchScreen.storyboard */; };
 		29436C172804815E00C95E55 /* DubbingTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29436C162804815E00C95E55 /* DubbingTests.swift */; };
 		29436C222804815E00C95E55 /* DubbingUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29436C212804815E00C95E55 /* DubbingUITests.swift */; };
+		29436C352804817800C95E55 /* Ocean.mov in Resources */ = {isa = PBXBuildFile; fileRef = 29436C322804817800C95E55 /* Ocean.mov */; };
+		29436C362804817800C95E55 /* VoisOverAudio1.m4a in Resources */ = {isa = PBXBuildFile; fileRef = 29436C332804817800C95E55 /* VoisOverAudio1.m4a */; };
+		29436C372804817800C95E55 /* VoisOverAudio2.m4a in Resources */ = {isa = PBXBuildFile; fileRef = 29436C342804817800C95E55 /* VoisOverAudio2.m4a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +52,9 @@
 		29436C1D2804815E00C95E55 /* DubbingUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DubbingUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		29436C212804815E00C95E55 /* DubbingUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DubbingUITests.swift; sourceTree = "<group>"; };
 		29436C232804815E00C95E55 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		29436C322804817800C95E55 /* Ocean.mov */ = {isa = PBXFileReference; lastKnownFileType = video.quicktime; path = Ocean.mov; sourceTree = "<group>"; };
+		29436C332804817800C95E55 /* VoisOverAudio1.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = VoisOverAudio1.m4a; sourceTree = "<group>"; };
+		29436C342804817800C95E55 /* VoisOverAudio2.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = VoisOverAudio2.m4a; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,6 +105,9 @@
 		29436BFE2804815D00C95E55 /* Dubbing */ = {
 			isa = PBXGroup;
 			children = (
+				29436C322804817800C95E55 /* Ocean.mov */,
+				29436C332804817800C95E55 /* VoisOverAudio1.m4a */,
+				29436C342804817800C95E55 /* VoisOverAudio2.m4a */,
 				29436BFF2804815D00C95E55 /* AppDelegate.swift */,
 				29436C012804815D00C95E55 /* SceneDelegate.swift */,
 				29436C032804815D00C95E55 /* ViewController.swift */,
@@ -232,8 +241,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				29436C0C2804815E00C95E55 /* LaunchScreen.storyboard in Resources */,
+				29436C372804817800C95E55 /* VoisOverAudio2.m4a in Resources */,
 				29436C092804815E00C95E55 /* Assets.xcassets in Resources */,
+				29436C362804817800C95E55 /* VoisOverAudio1.m4a in Resources */,
 				29436C072804815D00C95E55 /* Main.storyboard in Resources */,
+				29436C352804817800C95E55 /* Ocean.mov in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
