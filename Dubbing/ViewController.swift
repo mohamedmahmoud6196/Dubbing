@@ -90,11 +90,13 @@ class ViewController: UIViewController {
           
                 self.addChild(self.playerViewController)
                 self.view.addSubview(self.playerViewController.view)
-                self.play  }
-           // self.player.isMuted = true
+            self.playerViewController.didMove(toParent: self)
             if startPlay {
                 self.player.play()
             }
+        }
+           // self.player.isMuted = true
+            
         }
       
     }
@@ -194,5 +196,5 @@ class ViewController: UIViewController {
 
     }
 
-}
+
 
